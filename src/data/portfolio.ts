@@ -9,10 +9,10 @@ export const navItems: NavItem[] = [
 ];
 
 export const heroContent: HeroContent = {
-  title: 'Principal/Lead Engineer',
-  subtitle: 'Cloud-Native & Microservices Architect',
-  highlight: 'Cloud-Native & Microservices',
-  description: 'Results-driven Principal/Lead Engineer with 8+ years experience designing and architecting large-scale, cloud-native applications. Specializing in serverless architectures, microservices, and leading high-performing teams across AWS, Azure, and GCP.',
+  title: 'Principal Software Engineer',
+  subtitle: 'Cloud-Native & Search',
+  highlight: 'Cloud-Native & Search',
+  description: 'Principal Software Engineer comfortable across the full lifecycle — whether that\'s greenfield builds on AWS, modernising legacy systems, or putting engineering standards and culture in place. Happiest when solving hard architectural problems, helping other engineers grow, and investing in the wider engineering organisation beyond just the code.',
   codeExample: {
     language: 'typescript',
     filename: 'microservice.ts',
@@ -40,7 +40,7 @@ export const heroContent: HeroContent = {
 
 export const aboutContent: AboutContent = {
   title: 'About Me',
-  description: 'A results-driven Principal/Lead Engineer with over 8 years of experience in designing, architecting, and leading the delivery of large-scale, cloud-native applications. I specialize in serverless and microservices architectures across AWS, Azure, and GCP. A proven leader in defining technical strategies, mentoring high-performing teams, and driving significant improvements in developer efficiency and system reliability through modern DevOps and testing practices.'
+  description: 'Principal Software Engineer comfortable across the full lifecycle — whether that\'s greenfield builds on AWS, modernising legacy systems, or putting engineering standards and culture in place. Happiest when solving hard architectural problems, helping other engineers grow, and investing in the wider engineering organisation beyond just the code.'
 };
 
 export const skillCategories: SkillCategory[] = [
@@ -52,7 +52,9 @@ export const skillCategories: SkillCategory[] = [
       { name: 'DynamoDB', icon: 'fas fa-database', category: 'cloud' },
       { name: 'ECS/Fargate', icon: 'fas fa-cube', category: 'cloud' },
       { name: 'CloudFormation', icon: 'fas fa-layer-group', category: 'cloud' },
+      { name: 'CDK', icon: 'fas fa-toolbox', category: 'cloud' },
       { name: 'EventBridge', icon: 'fas fa-server', category: 'cloud' },
+      { name: 'OpenSearch', icon: 'fas fa-search', category: 'cloud' },
     ]
   },
   {
@@ -88,26 +90,29 @@ export const experiences: Experience[] = [
     title: 'Principal Software Engineer',
     company: 'Airtime',
     duration: 'March 2024 - Present',
-    description: 'Leading the creation and enforcement of development standards and architecting new microservices blueprints. Driving efforts to strangle legacy monoliths by moving services from PHP to TypeScript microservices.',
-    technologies: ['TypeScript', 'AWS', 'Microservices', 'CI/CD'],
+    description: 'Defined and enforced development standards and architected a reusable microservices blueprint. Led transformation of legacy systems, strangling a PHP monolith by migrating services to TypeScript microservices on AWS.',
+    technologies: ['TypeScript', 'AWS', 'OpenSearch', 'Microservices', 'CI/CD', 'AWS Glue'],
     achievements: [
-      'Reduced monolith size by 30% through microservices migration',
-      'Accelerated time-to-market with new microservices blueprint',
-      'Implemented comprehensive test strategies for safe CI/CD',
-      'Drastically decreased production bugs'
+      'Defined and enforced development standards and architected a reusable microservices blueprint',
+      'Led transformation of legacy systems, strangling a PHP monolith by migrating services to TypeScript microservices on AWS (Lambda, API Gateway, DynamoDB)',
+      'Implemented OpenSearch for product search fuzzy matching in front of a third-party pricing API',
+      'Designed comprehensive test strategies enabling safe continuous delivery',
+      'Architected data processing pipelines using AWS Glue across millions of user records',
+      'Awarded Colleague of the Year 2025, voted for by peers across the organisation',
+      'Established monthly brown bag sessions with rotating presenters and launched an annual company hackathon'
     ]
   },
   {
     id: '2',
-    title: 'Lead Software Engineer',
+    title: 'Senior Software Engineer',
     company: 'WalkSafe',
     duration: 'September 2022 - March 2024',
-    description: 'Led engineering team in establishing development standards and comprehensive testing suites. Architected event-driven backend system and developed payment system integration.',
-    technologies: ['C#', 'GCPs', 'Event-Driven Architecture', 'Payment Systems', 'Testing'],
+    description: 'Led engineering team in establishing development standards and comprehensive testing suites. Architected event-driven C#/.NET backend system and developed payment system integration.',
+    technologies: ['C#', '.NET', 'Event-Driven Architecture', 'Payment Systems', 'Testing'],
     achievements: [
-      'Drastically reduced critical production bugs',
-      'Significantly improved sprint velocity',
-      'Architected event-driven backend system',
+      'Reduced critical production bugs through improved testing and development standards',
+      'Improved sprint velocity through better engineering practices',
+      'Architected event-driven C#/.NET backend system',
       'Developed payment system for WalkSafe Pro',
       'Led small engineering team'
     ]
