@@ -5,7 +5,7 @@
 
 set -e
 
-BUCKET_NAME=${1:-"www.ryanoxtoby.io"}
+BUCKET_NAME=${1:-"www.ioryan.com"}
 AWS_REGION=${2:-"eu-west-1"}
 
 echo "🚀 Starting deployment to S3..."
@@ -17,7 +17,7 @@ if ! command -v aws &> /dev/null; then
 fi
 
 # Check if bucket name is provided
-if [ "$BUCKET_NAME" = "www.ryanoxtoby.io" ]; then
+if [ "$BUCKET_NAME" = "www.ioryan.com" ]; then
     echo "❌ Please provide a bucket name: ./scripts/deploy.sh my-bucket-name"
     exit 1
 fi

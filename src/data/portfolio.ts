@@ -180,15 +180,15 @@ export const contactMethods: ContactMethod[] = [
     type: 'email',
     icon: 'fas fa-envelope',
     label: 'Email',
-    value: 'mail@ryanoxtoby.io',
-    href: 'mailto:mail@ryanoxtoby.io'
+    value: 'mail@ioryan.com',
+    href: 'mailto:mail@ioryan.com'
   },
   {
     type: 'linkedin',
     icon: 'fab fa-linkedin',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/ryanoxtoby',
-    href: 'https://linkedin.com/in/ryanoxtoby'
+    value: 'LinkedIn Profile',
+    href: 'https://www.linkedin.com/in/ryan-o-6165ab94/'
   },
   {
     type: 'github',
